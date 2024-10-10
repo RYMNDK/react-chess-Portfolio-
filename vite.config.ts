@@ -38,7 +38,7 @@ if (!fs.existsSync(certFilePath) || !fs.existsSync(keyFilePath)) {
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: "/react-chess",
+    base: "/react-chess-Portforlio-",
 
     server: {
         port: 3000,
